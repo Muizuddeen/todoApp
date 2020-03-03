@@ -1,0 +1,22 @@
+.about{
+  margin:50px;
+}
+
+.about-text{
+margin:70px;
+display: flex;
+flex-direction: column;
+
+.text{
+  font-weight: bold;
+  font-size: 18px;
+
+}
+ .sub-text{
+  text-align: left;
+  word-spacing: 2px;
+  line-height: 26px;
+  letter-spacing: 1.5px;
+  font-size: 18px;
+}
+}

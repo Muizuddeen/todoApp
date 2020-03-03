@@ -1,0 +1,35 @@
+.header{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -1px;
+  background: rgba(0, 99, 181, 1.2);
+
+
+
+
+.logo-container{
+  height: 100%;
+  width: 95%;
+  padding: 0 0 0 65px;
+  margin:auto;
+  align-items: center;
+
+}
+.options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 80px;
+
+    .option {
+      padding: 10px 15px;
+      color:white;
+      font-size: 17px;
+      font-family:'Roboto', sans-serif;
+    }
+  }
+}
