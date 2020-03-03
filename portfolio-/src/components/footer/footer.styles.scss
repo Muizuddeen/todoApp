@@ -1,0 +1,35 @@
+.footer {
+  background-color: RoyalBlue;
+  width: 100%;
+  padding: 8% 0;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+display:flex;
+flex-direction: column;
+
+.logo-container{
+  &:hover {
+    cursor: pointer;
+     }
+}
+  .footer-icons{
+    font-size: 1.9em;
+  margin-top: 28px;
+  display: flex;
+justify-content: space-between;
+color: #f3f3f3;
+&:hover {
+  cursor: pointer;
+   }
+  }
+ }
+
+.icon{
+  padding:0 7px;
+}
+.footer-copy{
+  font-size: 15px;
+  color: #f3f3f3;
+  letter-spacing:1px;
+}
