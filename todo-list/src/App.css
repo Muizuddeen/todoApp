@@ -1,0 +1,29 @@
+.side-container{
+  background-color: rgba(224,224,184, 0.9);
+  width:15%;
+}
+.table-bordered{
+  border: 1px solid black !;
+  cursor:pointer;
+}
+.container{
+  background-color:  rgba(224,224,184, 0.7);
+  min-height:80vh;
+}
+
+
+
+.btn{
+  width:90px;
+}
+
+.input-text{
+  /* width: 40%; */
+  border-radius: 5px;
+  border-color:rgb(0, 30, 255, 0.4);
+}
+.item-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
